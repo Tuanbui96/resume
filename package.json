@@ -1,0 +1,14 @@
+{
+  "name": "persionsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scsstocss": "node-sass resources/scss/main.scss resources/css/style.css -w"
+  },
+  "author": "TUANBUI",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
