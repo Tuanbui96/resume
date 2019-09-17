@@ -556,9 +556,8 @@ html, body{
 /*-------------------RESPONSIVE----------------------*/
 /*--Iphone X 375x812--*/
 @media only screen
-    and (device-width : 375px)
-    and (device-height : 812px)
-    and (-webkit-device-pixel-ratio : 3){
+    and (min-width : 320px)
+    and (max-width : 812px){
 	.header{
 		height: 100%;
 
