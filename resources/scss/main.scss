@@ -631,13 +631,13 @@ html, body{
 	.section-about .col-1-of-3:nth-child(3){
 		order: 2;
 	}
-	.about-contact{
-		order: 3;
-	}
+
 	.about-contact{
 		display: flex;
 		flex-direction: column;
 		height: auto;
+		padding: 8rem 0;
+		order: 3;
 
 		&__text{
 
